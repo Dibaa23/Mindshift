@@ -1,0 +1,35 @@
+{
+    "questions": [
+      {
+        "Question": "What is the capital of France?",
+        "AnswerChoices": [
+          "Paris",
+          "London",
+          "Rome",
+          "Berlin"
+        ],
+        "CorrectAnswer": 0
+      },
+      {
+        "Question": "Which planet is known as the Red Planet?",
+        "AnswerChoices": [
+          "Earth",
+          "Mars",
+          "Jupiter",
+          "Venus"
+        ],
+        "CorrectAnswer": 1
+      },
+      {
+        "Question": "What is the largest ocean on Earth?",
+        "AnswerChoices": [
+          "Indian Ocean",
+          "Atlantic Ocean",
+          "Pacific Ocean",
+          "Arctic Ocean"
+        ],
+        "CorrectAnswer": 2
+      }
+    ]
+  }
+  
