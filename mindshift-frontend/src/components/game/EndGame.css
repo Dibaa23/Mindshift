@@ -7,15 +7,19 @@
 }
 
 .leaderboard-table .MuiTableCell-root {
-    color: #fff; /* White text */
+    color: #333; /* White text */
     border-bottom: 1px solid #444; /* Light border */
 }
 
 .leaderboard-table .MuiTableCell-head {
-    background-color: #333; /* Darker header background */
+    background-color: #171717; /* Darker header background */
     font-weight: bold;
 }
 
 .leaderboard-table .MuiTableRow-root:hover {
-    background-color: #444; /* Highlight row on hover */
+    background-color: #141414; /* Highlight row on hover */
+}
+
+.leaderboard-table .MuiTableRow-root {
+    background-color: #444; 
 }
