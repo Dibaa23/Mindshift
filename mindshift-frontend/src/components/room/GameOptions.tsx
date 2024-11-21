@@ -1,25 +1,15 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const Home: React.FC = () => {
+const GameOptions: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-        <div
-            style={{
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100vh', // Full viewport height
-                textAlign: 'center',
-                padding: '20px',
-            }}
-        >
-            <h1>Welcome to MindShift</h1>
+        <div style={{ textAlign: 'center', padding: '20px' }}>
+            <h2>Choose an Option</h2>
             <div style={{ marginTop: '20px' }}>
                 <button
-                    onClick={() => navigate('/instructions')}
+                    onClick={() => navigate('/create-room')}
                     style={{
                         marginRight: '10px',
                         backgroundColor: '#007BFF',
@@ -31,10 +21,10 @@ const Home: React.FC = () => {
                         fontSize: '1rem',
                     }}
                 >
-                    How to Play
+                    Create Room
                 </button>
                 <button
-                    onClick={() => navigate('/game-options')}
+                    onClick={() => navigate('/join-room')}
                     style={{
                         backgroundColor: '#28A745',
                         color: 'white',
@@ -45,11 +35,11 @@ const Home: React.FC = () => {
                         fontSize: '1rem',
                     }}
                 >
-                    Play Game
+                    Join Room
                 </button>
             </div>
         </div>
     );
 };
 
-export default Home;
+export default GameOptions;

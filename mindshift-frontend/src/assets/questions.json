@@ -1,35 +1,59 @@
 {
-    "questions": [
-      {
-        "Question": "What is the capital of France?",
-        "AnswerChoices": [
-          "Paris",
-          "London",
-          "Rome",
-          "Berlin"
-        ],
-        "CorrectAnswer": 0
-      },
-      {
-        "Question": "Which planet is known as the Red Planet?",
-        "AnswerChoices": [
-          "Earth",
-          "Mars",
-          "Jupiter",
-          "Venus"
-        ],
-        "CorrectAnswer": 1
-      },
-      {
-        "Question": "What is the largest ocean on Earth?",
-        "AnswerChoices": [
-          "Indian Ocean",
-          "Atlantic Ocean",
-          "Pacific Ocean",
-          "Arctic Ocean"
-        ],
-        "CorrectAnswer": 2
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "Question": "A self-driving car must decide between hitting a pedestrian crossing illegally or swerving into oncoming traffic, potentially injuring the passengers. What should it do?",
+      "AnswerChoices": [
+        "Hit the pedestrian to ensure passenger safety",
+        "Swerve into oncoming traffic to avoid hitting the pedestrian",
+        "Come to an abrupt stop, risking a rear-end collision",
+        "Let chance decide by choosing randomly"
+      ],
+      "CorrectAnswer": 0,
+      "Points": 100
+    },
+    {
+      "Question": "An AI healthcare system has limited resources and can treat only one patient. Should it prioritize:",
+      "AnswerChoices": [
+        "A young child with a high chance of recovery",
+        "An elderly patient with immediate life-threatening injuries",
+        "A middle-aged patient who is a primary caregiver",
+        "The patient who arrived first, based on a first-come-first-serve policy"
+      ],
+      "CorrectAnswer": 0,
+      "Points": 150
+    },
+    {
+      "Question": "An AI hiring system discovers a potential bias in historical data that favors one demographic over another. Should it:",
+      "AnswerChoices": [
+        "Continue to use the biased data as it's historically accurate",
+        "Remove all demographic information and risk losing context",
+        "Recalibrate the model to attempt to neutralize bias",
+        "Discard the AI and let humans handle the decisions"
+      ],
+      "CorrectAnswer": 2,
+      "Points": 200
+    },
+    {
+      "Question": "An AI surveillance system in a public park can improve security but also compromises privacy by monitoring all activities. Should the AI:",
+      "AnswerChoices": [
+        "Be implemented for better safety despite privacy concerns",
+        "Not be implemented to preserve individual privacy",
+        "Be implemented but allow individuals to opt out of being monitored",
+        "Be implemented with strict limits on data storage and usage"
+      ],
+      "CorrectAnswer": 3,
+      "Points": 120
+    },
+    {
+      "Question": "An AI education platform finds that students perform better when it uses personalized teaching methods based on their private data, but parents express concern about data security. Should it:",
+      "AnswerChoices": [
+        "Continue using private data for improved outcomes",
+        "Allow parents and students to opt out of personalized features",
+        "Stop using private data altogether, sacrificing personalization",
+        "Use anonymized data only, even if it reduces effectiveness"
+      ],
+      "CorrectAnswer": 1,
+      "Points": 130
+    }
+  ]
+}
