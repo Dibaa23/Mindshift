@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import questionsData from '../../assets/questions.json';
 import EndGame from './EndGame';
 
-
 interface Question {
     Question: string;
     AnswerChoices: string[];
@@ -21,7 +20,12 @@ const ScenarioDisplay: React.FC = () => {
     const [pointsEarned, setPointsEarned] = useState<number | null>(null); // Points earned for current question
     const [showPointsOverlay, setShowPointsOverlay] = useState(false); // Show points animation
 
-    const questions: Question[] = questionsData.questions;
+    const [questions, setQuestions] = useState<Question[]>([]);
+
+    useEffect(() => {
+        const shuffledQuestions = [...questionsData.questions].sort(() => Math.random() - 0.5);
+        setQuestions(shuffledQuestions.slice(0, 5)); // Select first 5 questions
+    }, []); // Only run once when the component mounts
 
     useEffect(() => {
         if (timeLeft <= 0) {
@@ -41,33 +45,33 @@ const ScenarioDisplay: React.FC = () => {
     };
 
     const handleTimeUp = () => {
+        if (questions.length === 0) return; // Prevent issues with empty questions array
         let earnedPoints = 0;
-    
+
         if (selectedAnswer === questions[currentQuestionIndex].CorrectAnswer) {
             // Base points for correct answer
             earnedPoints = questions[currentQuestionIndex].Points;
-    
+
             // Add a time bonus (e.g., 10 points for every 10 seconds left)
             earnedPoints += Math.floor(timeLeft / 10) * 10;
-    
+
             // Increment correct answers count
             setCorrectAnswersCount((prevCount) => prevCount + 1);
         }
-    
+
         // Update total points and show overlay
         setTotalPoints((prevPoints) => prevPoints + earnedPoints);
         setPointsEarned(earnedPoints);
         setShowPointsOverlay(true);
         setShowCorrectAnswer(true); // Show the correct answer
-    
+
         // Hide the points overlay and move to the next question
         setTimeout(() => {
             setShowPointsOverlay(false);
             goToNextQuestion();
         }, 2000);
     };
-    
-    
+
     const handleAnswerSelect = (index: number) => {
         setSelectedAnswer(index);
     };
@@ -92,8 +96,11 @@ const ScenarioDisplay: React.FC = () => {
             />
         );
     }
-    
-    
+
+    // Handle loading state or empty questions
+    if (questions.length === 0) {
+        return <div>Loading questions...</div>;
+    }
 
     const currentQuestion = questions[currentQuestionIndex];
 
@@ -109,7 +116,6 @@ const ScenarioDisplay: React.FC = () => {
                 {/* Time remaining on the right */}
                 <div>Time left: {timeLeft} seconds</div>
             </div>
-
 
             {/* Points overlay */}
             {showPointsOverlay && (
@@ -138,31 +144,30 @@ const ScenarioDisplay: React.FC = () => {
 
             {/* Answer choices */}
             <div style={{ marginTop: '20px' }}>
-            {currentQuestion.AnswerChoices.map((choice, index) => (
-    <div key={index} style={{ marginBottom: '10px' }}>
-        <button
-            onClick={() => handleAnswerSelect(index)}
-            style={{
-                backgroundColor:
-                    showCorrectAnswer && index === currentQuestion.CorrectAnswer
-                        ? 'green' // Highlight the correct answer in green
-                        : selectedAnswer === index
-                        ? '#d3d3d3' // Selected but incorrect answer
-                        : 'white', // Default button color
-                color: 'black',
-                padding: '10px',
-                border: '1px solid #ccc',
-                cursor: 'pointer',
-                width: '100%',
-                textAlign: 'left',
-            }}
-            disabled={showCorrectAnswer} // Disable buttons once time is up or answer is submitted
-        >
-            {choice}
-        </button>
-    </div>
-))}
-
+                {currentQuestion.AnswerChoices.map((choice, index) => (
+                    <div key={index} style={{ marginBottom: '10px' }}>
+                        <button
+                            onClick={() => handleAnswerSelect(index)}
+                            style={{
+                                backgroundColor:
+                                    showCorrectAnswer && index === currentQuestion.CorrectAnswer
+                                        ? 'green' // Highlight the correct answer in green
+                                        : selectedAnswer === index
+                                        ? '#d3d3d3' // Selected but incorrect answer
+                                        : 'white', // Default button color
+                                color: 'black',
+                                padding: '10px',
+                                border: '1px solid #ccc',
+                                cursor: 'pointer',
+                                width: '100%',
+                                textAlign: 'left',
+                            }}
+                            disabled={showCorrectAnswer} // Disable buttons once time is up or answer is submitted
+                        >
+                            {choice}
+                        </button>
+                    </div>
+                ))}
             </div>
 
             {/* Submit Answer Button */}

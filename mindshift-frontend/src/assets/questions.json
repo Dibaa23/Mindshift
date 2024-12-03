@@ -6,7 +6,7 @@
         "Hit the pedestrian to ensure passenger safety",
         "Swerve into oncoming traffic to avoid hitting the pedestrian",
         "Come to an abrupt stop, risking a rear-end collision",
-        "Let chance decide by choosing randomly"
+        "Let chance decide by choosing randomly" 
       ],
       "CorrectAnswer": 0,
       "Points": 100
@@ -54,6 +54,985 @@
       ],
       "CorrectAnswer": 1,
       "Points": 130
-    }
-  ]
+    },
+  {
+    "Question": "An AI law enforcement system can predict crimes with high accuracy but often flags innocent individuals for investigation. Should it:",
+    "AnswerChoices": [
+      "Be used as is for the greater good",
+      "Be discontinued to avoid harming innocent individuals",
+      "Be used but require human oversight for flagged cases",
+      "Only be used in high-crime areas"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 150
+  },
+  {
+    "Question": "A hospital AI must decide how to allocate limited ventilators during a pandemic. Should it prioritize:",
+    "AnswerChoices": [
+      "Patients with the highest chance of survival",
+      "Patients who are younger",
+      "Patients who are frontline workers",
+      "Random selection to ensure fairness"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 200
+  },
+  {
+    "Question": "An AI used in military drones identifies a target that may be a civilian. Should it:",
+    "AnswerChoices": [
+      "Engage the target to complete the mission",
+      "Abort the mission to avoid civilian casualties",
+      "Engage only after further confirmation",
+      "Leave the decision to a human operator"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 180
+  },
+  {
+    "Question": "An AI financial advisor suggests risky investments for higher returns but doesn't fully explain the risks to users. Should it:",
+    "AnswerChoices": [
+      "Continue providing suggestions as is",
+      "Simplify the suggestions to reduce user confusion",
+      "Add a disclaimer but keep suggesting high-risk options",
+      "Explain risks in detail, even if users may not understand"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 120
+  },
+  {
+    "Question": "An autonomous drone captures breathtaking images but can also invade private property. Should it:",
+    "AnswerChoices": [
+      "Be allowed to fly freely for artistic purposes",
+      "Be banned entirely to protect privacy",
+      "Require user consent before flying over private areas",
+      "Be limited to public spaces only"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 100
+  },
+  {
+    "Question": "An AI content moderation system can reduce harmful content online but often removes harmless posts. Should it:",
+    "AnswerChoices": [
+      "Be used despite false removals",
+      "Be abandoned to avoid unnecessary censorship",
+      "Be improved to reduce errors before implementation",
+      "Be used with an option for users to appeal removals"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 140
+  },
+  {
+    "Question": "An AI tutor for children can optimize learning but encourages long screen times. Should it:",
+    "AnswerChoices": [
+      "Continue as is for educational benefits",
+      "Limit screen time even if learning is reduced",
+      "Add breaks and physical activities to the schedule",
+      "Let parents decide how much screen time is acceptable"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 130
+  },
+  {
+    "Question": "An AI assistant for the elderly helps with daily tasks but collects personal data. Should it:",
+    "AnswerChoices": [
+      "Be used for its benefits despite data collection",
+      "Be discontinued to preserve privacy",
+      "Be allowed only if data is anonymized",
+      "Be used but allow users to opt out of data collection"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 110
+  },
+  {
+    "Question": "A self-driving bus must decide between hitting a jaywalking pedestrian or swerving into a barrier, injuring its passengers. Should it:",
+    "AnswerChoices": [
+      "Hit the pedestrian to ensure passenger safety",
+      "Swerve into the barrier to protect the pedestrian",
+      "Come to an abrupt stop, risking a rear-end collision",
+      "Allow a random algorithm to decide"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 160
+  },
+  {
+    "Question": "An AI recommendation system prioritizes content based on user engagement, promoting addictive behavior. Should it:",
+    "AnswerChoices": [
+      "Continue optimizing for engagement",
+      "Prioritize balanced content instead of engagement",
+      "Let users choose their recommendation preferences",
+      "Be redesigned to discourage addictive behavior"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 150
+  },
+  {
+    "Question": "An AI system managing power distribution must decide whether to cut electricity to a hospital or a residential area during a shortage. Should it:",
+    "AnswerChoices": [
+      "Prioritize the hospital to save lives",
+      "Prioritize the residential area for fairness",
+      "Alternate between the two to balance impact",
+      "Request manual intervention from a human operator"
+    ],
+    "CorrectAnswer": 0,
+    "Points": 180
+  },
+  {
+    "Question": "A company uses AI to analyze employee productivity but also tracks private communications. Should the company:",
+    "AnswerChoices": [
+      "Continue for maximum efficiency",
+      "Stop to respect employee privacy",
+      "Use AI but anonymize data for analysis",
+      "Limit tracking to work-related communications"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 140
+  },
+  {
+    "Question": "An AI teacher grading essays finds that creative answers often score lower due to its rigid criteria. Should it:",
+    "AnswerChoices": [
+      "Stick to the rigid criteria for consistency",
+      "Allow human teachers to grade creative answers",
+      "Adjust the AI to recognize creativity",
+      "Discard the AI and rely on human graders"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 130
+  },
+  {
+    "Question": "An AI companion for lonely individuals offers emotional support but may create dependency. Should it:",
+    "AnswerChoices": [
+      "Continue as is for emotional well-being",
+      "Include regular alerts encouraging users to seek human connections",
+      "Limit usage time to avoid dependency",
+      "Be discontinued due to ethical concerns"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 150
+  },
+  {
+    "Question": "An AI-controlled factory improves efficiency but eliminates thousands of jobs. Should the factory:",
+    "AnswerChoices": [
+      "Implement the AI and offer severance packages",
+      "Delay AI implementation to retrain employees",
+      "Use AI only for non-essential tasks to keep some jobs",
+      "Abandon AI plans entirely to preserve jobs"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 170
+  },
+  {
+    "Question": "A fitness app powered by AI uses user data to recommend workouts but sells the data to third parties. Should it:",
+    "AnswerChoices": [
+      "Continue for financial sustainability",
+      "Allow users to opt out of data sharing",
+      "Stop data sales and charge a subscription fee",
+      "Stop data sales even if it risks financial losses"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 120
+  },
+  {
+    "Question": "An AI system for traffic control prioritizes public transport over private vehicles, causing delays for drivers. Should it:",
+    "AnswerChoices": [
+      "Continue prioritizing public transport for the greater good",
+      "Balance priorities between public and private vehicles",
+      "Only prioritize public transport during peak hours",
+      "Remove prioritization to treat all vehicles equally"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 130
+  },
+  {
+    "Question": "An AI that recommends university admissions favors applicants with strong test scores over holistic achievements. Should it:",
+    "AnswerChoices": [
+      "Stick to test scores for fairness",
+      "Incorporate holistic achievements into decisions",
+      "Let humans review edge cases",
+      "Use a mix of both approaches"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 150
+  },
+  {
+    "Question": "An AI mental health chatbot helps users manage stress but may misinterpret severe mental health issues. Should it:",
+    "AnswerChoices": [
+      "Continue as is, offering general support",
+      "Direct users to professionals for severe issues",
+      "Include a disclaimer about its limitations",
+      "Be discontinued due to potential harm"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 160
+  },
+  {
+    "Question": "A social media AI boosts posts that get high engagement but spreads misinformation. Should it:",
+    "AnswerChoices": [
+      "Continue boosting for engagement",
+      "Use fact-checking to suppress misinformation",
+      "Allow users to flag posts for moderation",
+      "Stop boosting posts altogether"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 170
+  },
+  {
+    "Question": "An AI traffic system prioritizes ambulances but causes significant delays for regular commuters. Should it:",
+    "AnswerChoices": [
+      "Continue prioritizing ambulances despite delays",
+      "Alternate between prioritizing ambulances and commuters",
+      "Only prioritize ambulances during critical emergencies",
+      "Collect feedback from users to determine priorities"
+    ],
+    "CorrectAnswer": 0,
+    "Points": 150
+  },
+  {
+    "Question": "An AI in a courtroom assists with sentencing but shows patterns of bias against minorities. Should it:",
+    "AnswerChoices": [
+      "Be used as is since it aligns with historical data",
+      "Be suspended until the bias is addressed",
+      "Be adjusted to ensure equality in sentencing",
+      "Be discontinued entirely to avoid ethical issues"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 200
+  },
+  {
+    "Question": "An AI-powered dating app matches people based on compatibility but collects private data. Should it:",
+    "AnswerChoices": [
+      "Continue as is for optimal matches",
+      "Allow users to opt out of data collection",
+      "Limit data collection even if it reduces accuracy",
+      "Switch to anonymized data for better privacy"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 120
+  },
+  {
+    "Question": "An AI teacher for a virtual classroom boosts engagement but struggles with inclusivity for non-native speakers. Should it:",
+    "AnswerChoices": [
+      "Be replaced with human teachers",
+      "Focus on inclusivity even if engagement drops",
+      "Provide optional resources for non-native speakers",
+      "Continue as is and prioritize overall class performance"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 140
+  },
+  {
+    "Question": "A delivery drone powered by AI can deliver packages faster but increases noise pollution in residential areas. Should it:",
+    "AnswerChoices": [
+      "Be allowed to operate freely for efficiency",
+      "Restrict operations during certain hours",
+      "Limit use to commercial areas only",
+      "Switch to quieter but slower drone models"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 130
+  },
+  {
+    "Question": "An AI in an emergency room prioritizes high-risk cases but delays treatment for less critical patients. Should it:",
+    "AnswerChoices": [
+      "Continue prioritizing high-risk cases",
+      "Implement a first-come, first-serve system",
+      "Rotate between high-risk and less critical cases",
+      "Let doctors manually override AI decisions"
+    ],
+    "CorrectAnswer": 0,
+    "Points": 160
+  },
+  {
+    "Question": "An AI fitness tracker provides personalized health advice but shares user data with third-party companies. Should it:",
+    "AnswerChoices": [
+      "Continue providing advice and sharing data",
+      "Stop sharing data, even if it reduces features",
+      "Give users the option to disable data sharing",
+      "Focus on anonymizing data before sharing"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 140
+  },
+  {
+    "Question": "An AI weather forecasting system is 90% accurate but cannot predict sudden natural disasters. Should it:",
+    "AnswerChoices": [
+      "Continue as is with disclaimers about limitations",
+      "Be discontinued until it can predict disasters",
+      "Focus development efforts on disaster prediction",
+      "Combine its data with human expertise for critical events"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 110
+  },
+  {
+    "Question": "An AI system monitors employee productivity but feels invasive to many workers. Should it:",
+    "AnswerChoices": [
+      "Continue monitoring for maximum efficiency",
+      "Be modified to collect less intrusive data",
+      "Provide full transparency to employees",
+      "Be discontinued to respect employee privacy"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 120
+  },
+  {
+    "Question": "An AI content creation tool can produce realistic art but often plagiarizes existing works. Should it:",
+    "AnswerChoices": [
+      "Continue producing content without restrictions",
+      "Limit its output to avoid potential plagiarism",
+      "Require user verification before publishing works",
+      "Focus on creating content from public domain resources"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 150
+  },
+  {
+    "Question": "An AI news generator provides tailored news for users but may lead to echo chambers. Should it:",
+    "AnswerChoices": [
+      "Continue as is for user convenience",
+      "Add random news outside user preferences",
+      "Stop tailoring news to promote diversity",
+      "Allow users to customize their news filters"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 150
+  },
+  {
+    "Question": "An AI stock trading bot makes profitable decisions but occasionally causes market instability. Should it:",
+    "AnswerChoices": [
+      "Continue as is for profitability",
+      "Be limited to prevent market instability",
+      "Add human oversight for major trades",
+      "Suspend its operation completely"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 180
+  },
+  {
+    "Question": "An AI medical assistant improves diagnostics but cannot explain its reasoning. Should it:",
+    "AnswerChoices": [
+      "Be trusted and implemented widely",
+      "Be used only with human supervision",
+      "Be redesigned to prioritize transparency",
+      "Be discontinued until it can explain itself"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 170
+  },
+  {
+    "Question": "An AI recommendation system for online shopping improves sales but promotes overconsumption. Should it:",
+    "AnswerChoices": [
+      "Continue promoting items to boost sales",
+      "Introduce limits to prevent overconsumption",
+      "Focus only on user-requested recommendations",
+      "Allow users to set ethical shopping preferences"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 140
+  },
+  {
+    "Question": "An AI system in a school identifies struggling students but inadvertently labels some incorrectly. Should it:",
+    "AnswerChoices": [
+      "Be used with disclaimers about potential errors",
+      "Stop being used until accuracy improves",
+      "Only provide suggestions to teachers, not labels",
+      "Be discontinued to avoid harm to students"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 150
+  },
+  {
+    "Question": "An AI personal assistant records conversations for better contextual responses but raises privacy concerns. Should it:",
+    "AnswerChoices": [
+      "Continue recording for optimal performance",
+      "Only record conversations with explicit consent",
+      "Stop recording and rely on real-time data only",
+      "Encrypt recordings to ensure privacy"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 160
+  },
+  {
+    "Question": "An AI game matchmaking system creates fair teams but prioritizes skill over user preferences like playing with friends. Should it:",
+    "AnswerChoices": [
+      "Continue prioritizing skill for fairness",
+      "Allow users to opt for friend preferences",
+      "Balance skill and user preferences equally",
+      "Discontinue matchmaking and let users decide"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 130
+  },
+  {
+    "Question": "An AI language translator works well for major languages but performs poorly for rare ones. Should it:",
+    "AnswerChoices": [
+      "Focus only on major languages",
+      "Improve support for rare languages",
+      "Let users provide feedback to prioritize updates",
+      "Discontinue until all languages are equally supported"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 120
+  },
+  {
+    "Question": "An AI home security system identifies threats but falsely flags pets or harmless visitors. Should it:",
+    "AnswerChoices": [
+      "Continue operating with disclaimers",
+      "Improve accuracy to avoid false alarms",
+      "Limit monitoring to certain times of day",
+      "Allow users to manually confirm flagged events"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 150
+  },
+  {
+    "Question": "An AI chatbot in customer service resolves most queries but cannot handle sensitive or emotional topics well. Should it:",
+    "AnswerChoices": [
+      "Continue handling all queries equally",
+      "Redirect sensitive topics to human agents",
+      "Be trained to handle sensitive topics better",
+      "Stop handling customer queries altogether"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 140
+  },
+  {
+    "Question": "An AI music composer generates unique songs but often resembles existing tracks. Should it:",
+    "AnswerChoices": [
+      "Continue creating music without restrictions",
+      "Limit output to avoid potential copyright issues",
+      "Require user input to guide music creation",
+      "Focus on creating music in specific genres"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 130
+  },
+  {
+    "Question": "An AI in a smart home system learns user habits but may share data with third parties. Should it:",
+    "AnswerChoices": [
+      "Continue learning habits for personalized experiences",
+      "Stop sharing data, even if it reduces functionality",
+      "Allow users to opt out of data sharing",
+      "Encrypt data to protect user privacy"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 110
+  },
+  {
+    "Question": "An AI in a self-checkout system flags items for potential theft but often misidentifies harmless behavior. Should it:",
+    "AnswerChoices": [
+      "Continue flagging items for security",
+      "Improve accuracy to avoid false alarms",
+      "Require manual verification before flagging",
+      "Be removed to prevent customer inconvenience"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 120
+  },
+  {
+    "Question": "An AI in a dating app filters out potentially harmful users but may also exclude genuine matches. Should it:",
+    "AnswerChoices": [
+      "Continue filtering for user safety",
+      "Allow users to report harmful behavior",
+      "Include a warning about potential exclusions",
+      "Stop filtering to avoid missing genuine matches"
+    ],
+    "CorrectAnswer": 0,
+    "Points": 130
+  },
+  {
+    "Question": "An AI in a smart car system can prevent accidents but sometimes overrides user control. Should it:",
+    "AnswerChoices": [
+      "Continue prioritizing safety over user control",
+      "Allow users to disable the AI system",
+      "Include a manual override for critical situations",
+      "Be removed to give full control back to users"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 140
+  },
+  {
+    "Question": "An AI in a virtual assistant system can mimic human emotions but sometimes misinterprets user feelings. Should it:",
+    "AnswerChoices": [
+      "Continue mimicking emotions for better interactions",
+      "Include a disclaimer about its emotional capabilities",
+      "Focus on understanding user intent instead",
+      "Be removed to avoid misunderstandings"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 150
+  },
+  {
+    "Question": "An AI in a job recruitment system filters out unqualified candidates but may also exclude potential talent. Should it:",
+    "AnswerChoices": [
+      "Continue filtering for efficiency",
+      "Allow candidates to appeal rejections",
+      "Include a disclaimer about potential exclusions",
+      "Stop filtering to ensure all candidates are considered"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 160
+  },
+  {
+    "Question": "An AI in a social media platform detects hate speech but sometimes misidentifies harmless content. Should it:",
+    "AnswerChoices": [
+      "Continue detecting hate speech for user safety",
+      "Improve accuracy to avoid false flags",
+      "Allow users to appeal content removals",
+      "Stop detecting hate speech to avoid censorship"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 170
+  },
+  {
+    "Question": "An AI in a recommendation system suggests products based on user data but may lead to excessive spending. Should it:",
+    "AnswerChoices": [
+      "Continue suggesting products for user convenience",
+      "Limit the number of recommendations per user",
+      "Include budget alerts for excessive spending",
+      "Stop suggesting products to avoid financial strain"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 180
+  },
+  {
+    "Question": "An AI in a virtual reality system enhances user experiences but may cause motion sickness. Should it:",
+    "AnswerChoices": [
+      "Continue enhancing experiences despite side effects",
+      "Include motion sickness warnings for users",
+      "Limit certain features to reduce motion sickness",
+      "Stop enhancing experiences to avoid discomfort"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 190
+  },
+  {
+    "Question": "An AI traffic management system prioritizes emergency vehicles but increases delays for public transport. Should it:",
+    "AnswerChoices": [
+      "Prioritize emergency vehicles at all times",
+      "Balance emergency response and public transport delays",
+      "Focus on minimizing overall traffic delays",
+      "Let users vote on the prioritization policy"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 160
+  },
+  {
+    "Question": "An AI content moderation system removes harmful posts but also censors some innocent ones. Should it:",
+    "AnswerChoices": [
+      "Continue removing posts for safety",
+      "Provide warnings instead of removals",
+      "Allow users to appeal censorship decisions",
+      "Disable the system until it becomes perfect"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 140
+  },
+  {
+    "Question": "An AI investment tool favors safe, low-risk options but misses opportunities for higher returns. Should it:",
+    "AnswerChoices": [
+      "Stick to safe options to minimize losses",
+      "Focus on balancing risk and reward",
+      "Allow users to set their risk preferences",
+      "Switch entirely to high-return strategies"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 150
+  },
+  {
+    "Question": "An AI hiring system favors experienced candidates, making it harder for fresh graduates. Should it:",
+    "AnswerChoices": [
+      "Continue favoring experienced candidates",
+      "Introduce equal weight for fresh graduates",
+      "Exclude experience as a factor in hiring",
+      "Focus solely on skill-based assessments"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 170
+  },
+  {
+    "Question": "An AI recommendation system for health apps nudges users toward healthier choices but invades their personal data. Should it:",
+    "AnswerChoices": [
+      "Continue nudging users for better health",
+      "Allow users to opt out of personalized recommendations",
+      "Provide recommendations without collecting data",
+      "Stop the system to protect privacy"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 150
+  },
+  {
+    "Question": "An AI law enforcement tool predicts crime hotspots but risks reinforcing stereotypes. Should it:",
+    "AnswerChoices": [
+      "Use predictions with public oversight",
+      "Stop using predictive policing altogether",
+      "Ensure predictions are bias-free before use",
+      "Let law enforcement use predictions independently"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 180
+  },
+  {
+    "Question": "An AI-powered social media platform boosts engagement but increases the spread of misinformation. Should it:",
+    "AnswerChoices": [
+      "Continue boosting engagement for growth",
+      "Introduce stricter fact-checking measures",
+      "Demote posts flagged as misinformation",
+      "Allow users to report misinformation for review"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 150
+  },
+  {
+    "Question": "An AI energy grid system reduces carbon emissions but raises electricity costs for low-income households. Should it:",
+    "AnswerChoices": [
+      "Prioritize environmental impact over costs",
+      "Introduce subsidies for low-income households",
+      "Focus on balancing costs and emissions",
+      "Abandon the system to prevent inequality"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 160
+  },
+  {
+    "Question": "An AI teacher grading system is efficient but often penalizes creative answers. Should it:",
+    "AnswerChoices": [
+      "Continue with automated grading for efficiency",
+      "Incorporate human review for creative responses",
+      "Focus on re-training the AI for creativity",
+      "Stop using AI for grading entirely"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 140
+  },
+  {
+    "Question": "An AI disaster response tool prioritizes urban areas over rural areas due to higher population density. Should it:",
+    "AnswerChoices": [
+      "Continue prioritizing urban areas for efficiency",
+      "Balance responses equally between urban and rural areas",
+      "Focus on rural areas to reduce disparities",
+      "Let governments decide the priority zones"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 180
+  },
+  {
+    "Question": "An AI in a virtual assistant system can mimic human emotions but sometimes misinterprets user feelings. Should it:",
+    "AnswerChoices": [
+      "Continue mimicking emotions for better interactions",
+      "Include a disclaimer about its emotional capabilities",
+      "Focus on understanding user intent instead",
+      "Be removed to avoid misunderstandings"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 150
+  },
+  {
+    "Question": "An AI in a job recruitment system filters out unqualified candidates but may also exclude potential talent. Should it:",
+    "AnswerChoices": [
+      "Continue filtering for efficiency",
+      "Allow candidates to appeal rejections",
+      "Include a disclaimer about potential exclusions",
+      "Stop filtering to ensure all candidates are considered"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 160
+  },
+  {
+    "Question": "An AI in a social media platform detects hate speech but sometimes misidentifies harmless content. Should it:",
+    "AnswerChoices": [
+      "Continue detecting hate speech for user safety",
+      "Improve accuracy to avoid false flags",
+      "Allow users to appeal content removals",
+      "Stop detecting hate speech to avoid censorship"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 170
+  },
+  {
+    "Question": "An AI in a recommendation system suggests products based on user data but may lead to excessive spending. Should it:",
+    "AnswerChoices": [
+      "Continue suggesting products for user convenience",
+      "Limit the number of recommendations per user",
+      "Include budget alerts for excessive spending",
+      "Stop suggesting products to avoid financial strain"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 180
+  },
+  {
+    "Question": "An AI in a virtual reality system enhances user experiences but may cause motion sickness. Should it:",
+    "AnswerChoices": [
+      "Continue enhancing experiences despite side effects",
+      "Include motion sickness warnings for users",
+      "Limit certain features to reduce motion sickness",
+      "Stop enhancing experiences to avoid discomfort"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 190
+  },
+  {
+    "Question": "An AI traffic management system prioritizes emergency vehicles but increases delays for public transport. Should it:",
+    "AnswerChoices": [
+      "Prioritize emergency vehicles at all times",
+      "Balance emergency response and public transport delays",
+      "Focus on minimizing overall traffic delays",
+      "Let users vote on the prioritization policy"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 160
+  },
+  {
+    "Question": "An AI content moderation system removes harmful posts but also censors some innocent ones. Should it:",
+    "AnswerChoices": [
+      "Continue removing posts for safety",
+      "Provide warnings instead of removals",
+      "Allow users to appeal censorship decisions",
+      "Disable the system until it becomes perfect"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 140
+  },
+  {
+    "Question": "An AI investment tool favors safe, low-risk options but misses opportunities for higher returns. Should it:",
+    "AnswerChoices": [
+      "Stick to safe options to minimize losses",
+      "Focus on balancing risk and reward",
+      "Allow users to set their risk preferences",
+      "Switch entirely to high-return strategies"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 150
+  },
+  {
+    "Question": "An AI hiring system favors experienced candidates, making it harder for fresh graduates. Should it:",
+    "AnswerChoices": [
+      "Continue favoring experienced candidates",
+      "Introduce equal weight for fresh graduates",
+      "Exclude experience as a factor in hiring",
+      "Focus solely on skill-based assessments"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 170
+  },
+  {
+    "Question": "An AI recommendation system for health apps nudges users toward healthier choices but invades their personal data. Should it:",
+    "AnswerChoices": [
+      "Continue nudging users for better health",
+      "Allow users to opt out of personalized recommendations",
+      "Provide recommendations without collecting data",
+      "Stop the system to protect privacy"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 150
+  },
+  {
+    "Question": "An AI law enforcement tool predicts crime hotspots but risks reinforcing stereotypes. Should it:",
+    "AnswerChoices": [
+      "Use predictions with public oversight",
+      "Stop using predictive policing altogether",
+      "Ensure predictions are bias-free before use",
+      "Let law enforcement use predictions independently"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 180
+  },
+  {
+    "Question": "An AI-powered social media platform boosts engagement but increases the spread of misinformation. Should it:",
+    "AnswerChoices": [
+      "Continue boosting engagement for growth",
+      "Introduce stricter fact-checking measures",
+      "Demote posts flagged as misinformation",
+      "Allow users to report misinformation for review"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 150
+  },
+  {
+    "Question": "An AI energy grid system reduces carbon emissions but raises electricity costs for low-income households. Should it:",
+    "AnswerChoices": [
+      "Prioritize environmental impact over costs",
+      "Introduce subsidies for low-income households",
+      "Focus on balancing costs and emissions",
+      "Abandon the system to prevent inequality"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 160
+  },
+  {
+    "Question": "An AI teacher grading system is efficient but often penalizes creative answers. Should it:",
+    "AnswerChoices": [
+      "Continue with automated grading for efficiency",
+      "Incorporate human review for creative responses",
+      "Focus on re-training the AI for creativity",
+      "Stop using AI for grading entirely"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 140
+  },
+  {
+    "Question": "An AI disaster response tool prioritizes urban areas over rural areas due to higher population density. Should it:",
+    "AnswerChoices": [
+      "Continue prioritizing urban areas for efficiency",
+      "Balance responses equally between urban and rural areas",
+      "Focus on rural areas to reduce disparities",
+      "Let governments decide the priority zones"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 180
+  },
+  {
+    "Question": "An AI in a virtual assistant system can mimic human emotions but sometimes misinterprets user feelings. Should it:",
+    "AnswerChoices": [
+      "Continue mimicking emotions for better interactions",
+      "Include a disclaimer about its emotional capabilities",
+      "Focus on understanding user intent instead",
+      "Be removed to avoid misunderstandings"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 150
+  },
+  {
+    "Question": "An AI in a job recruitment system filters out unqualified candidates but may also exclude potential talent. Should it:",
+    "AnswerChoices": [
+      "Continue filtering for efficiency",
+      "Allow candidates to appeal rejections",
+      "Include a disclaimer about potential exclusions",
+      "Stop filtering to ensure all candidates are considered"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 160
+  },
+  {
+    "Question": "An AI in a social media platform detects hate speech but sometimes misidentifies harmless content. Should it:",
+    "AnswerChoices": [
+      "Continue detecting hate speech for user safety",
+      "Improve accuracy to avoid false flags",
+      "Allow users to appeal content removals",
+      "Stop detecting hate speech to avoid censorship"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 170
+  },
+  {
+    "Question": "An AI in a recommendation system suggests products based on user data but may lead to excessive spending. Should it:",
+    "AnswerChoices": [
+      "Continue suggesting products for user convenience",
+      "Limit the number of recommendations per user",
+      "Include budget alerts for excessive spending",
+      "Stop suggesting products to avoid financial strain"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 180
+  },
+  {
+    "Question": "An AI in a virtual reality system enhances user experiences but may cause motion sickness. Should it:",
+    "AnswerChoices": [
+      "Continue enhancing experiences despite side effects",
+      "Include motion sickness warnings for users",
+      "Limit certain features to reduce motion sickness",
+      "Stop enhancing experiences to avoid discomfort"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 190
+  },
+  {
+    "Question": "An AI traffic management system prioritizes emergency vehicles but increases delays for public transport. Should it:",
+    "AnswerChoices": [
+      "Prioritize emergency vehicles at all times",
+      "Balance emergency response and public transport delays",
+      "Focus on minimizing overall traffic delays",
+      "Let users vote on the prioritization policy"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 160
+  },
+  {
+    "Question": "An AI content moderation system removes harmful posts but also censors some innocent ones. Should it:",
+    "AnswerChoices": [
+      "Continue removing posts for safety",
+      "Provide warnings instead of removals",
+      "Allow users to appeal censorship decisions",
+      "Disable the system until it becomes perfect"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 140
+  },
+  {
+    "Question": "An AI investment tool favors safe, low-risk options but misses opportunities for higher returns. Should it:",
+    "AnswerChoices": [
+      "Stick to safe options to minimize losses",
+      "Focus on balancing risk and reward",
+      "Allow users to set their risk preferences",
+      "Switch entirely to high-return strategies"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 150
+  },
+  {
+    "Question": "An AI hiring system favors experienced candidates, making it harder for fresh graduates. Should it:",
+    "AnswerChoices": [
+      "Continue favoring experienced candidates",
+      "Introduce equal weight for fresh graduates",
+      "Exclude experience as a factor in hiring",
+      "Focus solely on skill-based assessments"
+    ],
+    "CorrectAnswer": 3,
+    "Points": 170
+  },
+  {
+    "Question": "An AI recommendation system for health apps nudges users toward healthier choices but invades their personal data. Should it:",
+    "AnswerChoices": [
+      "Continue nudging users for better health",
+      "Allow users to opt out of personalized recommendations",
+      "Provide recommendations without collecting data",
+      "Stop the system to protect privacy"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 150
+  },
+  {
+    "Question": "An AI law enforcement tool predicts crime hotspots but risks reinforcing stereotypes. Should it:",
+    "AnswerChoices": [
+      "Use predictions with public oversight",
+      "Stop using predictive policing altogether",
+      "Ensure predictions are bias-free before use",
+      "Let law enforcement use predictions independently"
+    ],
+    "CorrectAnswer": 2,
+    "Points": 180
+  },
+  {
+    "Question": "An AI-powered social media platform boosts engagement but increases the spread of misinformation. Should it:",
+    "AnswerChoices": [
+      "Continue boosting engagement for growth",
+      "Introduce stricter fact-checking measures",
+      "Demote posts flagged as misinformation",
+      "Allow users to report misinformation for review"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 150
+  },
+  {
+    "Question": "An AI energy grid system reduces carbon emissions but raises electricity costs for low-income households. Should it:",
+    "AnswerChoices": [
+      "Prioritize environmental impact over costs",
+      "Introduce subsidies for low-income households",
+      "Focus on balancing costs and emissions",
+      "Abandon the system to prevent inequality"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 160
+  },
+  {
+    "Question": "An AI teacher grading system is efficient but often penalizes creative answers. Should it:",
+    "AnswerChoices": [
+      "Continue with automated grading for efficiency",
+      "Incorporate human review for creative responses",
+      "Focus on re-training the AI for creativity",
+      "Stop using AI for grading entirely"
+    ],
+    "CorrectAnswer": 1,
+    "Points": 140
+  }
+]
 }
