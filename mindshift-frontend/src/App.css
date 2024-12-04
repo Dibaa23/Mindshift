@@ -18,6 +18,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #702963;
 }
 
 #app-container {

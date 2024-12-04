@@ -8,8 +8,8 @@ const InstructionsPage: React.FC = () => {
         <div style={{ padding: '20px', textAlign: 'center' }}>
             <h2>How to Play</h2>
             <p style={{ fontSize: '1.2rem', margin: '20px 0' }}>
-                Predict what the AI believes is the correct answer to ethical dilemma questions.
-            </p>
+Welcome to MindShift, an interactive game where you predict what AI believes is the correct answer to ethical dilemma questions!
+</p>
             <p style={{ fontSize: '1rem', margin: '20px 0' }}>
                 Each question has multiple-choice options. You will earn points for correct answers and additional time bonuses for answering quickly. Try to get the highest score possible!
             </p>

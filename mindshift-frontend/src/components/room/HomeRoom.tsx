@@ -16,7 +16,17 @@ const Home: React.FC = () => {
                 padding: '20px',
             }}
         >
-            <h1>Welcome to MindShift</h1>
+            <h1>Welcome to MindShift 🧠</h1>
+
+            <img
+                src="/src/assets/Mindshift Logo.png" // replace with the correct path to your logo image
+                alt="MindShift Logo"
+                style={{
+                    width: '600px', // Adjust the size as needed
+                    height: '600px',
+                }}
+            />
+
             <div style={{ marginTop: '20px' }}>
                 <button
                     onClick={() => navigate('/instructions')}
