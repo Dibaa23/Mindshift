@@ -28,7 +28,7 @@ const Home: React.FC = () => {
             </h1>
 
             <img
-                src="/public/Mindshift Logo.png" // Replace with the correct path to your logo image
+                src="/Mindshift Logo.png" // Replace with the correct path to your logo image
                 alt="MindShift Logo"
                 style={{
                     width: '300px', // Reduced width
