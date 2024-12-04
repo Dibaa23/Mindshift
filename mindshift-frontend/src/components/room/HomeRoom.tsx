@@ -14,31 +14,41 @@ const Home: React.FC = () => {
                 height: '100vh', // Full viewport height
                 textAlign: 'center',
                 padding: '20px',
+                boxSizing: 'border-box', // Ensures padding doesn't affect height
+                overflow: 'hidden', // Prevents scrollbars
             }}
         >
-            <h1>Welcome to MindShift 🧠</h1>
+            <h1
+                style={{
+                    marginTop: '20px', // Add margin to top of the header
+                    fontSize: '2.5rem', // Adjust font size for better visibility
+                }}
+            >
+                Welcome to MindShift 🧠
+            </h1>
 
             <img
-                src="/src/assets/Mindshift Logo.png" // replace with the correct path to your logo image
+                src="/src/assets/Mindshift Logo.png" // Replace with the correct path to your logo image
                 alt="MindShift Logo"
                 style={{
-                    width: '600px', // Adjust the size as needed
-                    height: '600px',
+                    width: '300px', // Reduced width
+                    height: '300px', // Reduced height
+                    marginTop: '20px', // Add margin above the logo
                 }}
             />
 
-            <div style={{ marginTop: '20px' }}>
+            <div style={{ marginTop: '30px' }}>
                 <button
                     onClick={() => navigate('/instructions')}
                     style={{
-                        marginRight: '10px',
+                        marginRight: '15px', // Add spacing between buttons
                         backgroundColor: '#007BFF',
                         color: 'white',
                         padding: '10px 20px',
                         border: 'none',
                         borderRadius: '5px',
                         cursor: 'pointer',
-                        fontSize: '1rem',
+                        fontSize: '1.1rem', // Slightly larger font
                     }}
                 >
                     How to Play
@@ -52,7 +62,7 @@ const Home: React.FC = () => {
                         border: 'none',
                         borderRadius: '5px',
                         cursor: 'pointer',
-                        fontSize: '1rem',
+                        fontSize: '1.1rem', // Slightly larger font
                     }}
                 >
                     Play Game
